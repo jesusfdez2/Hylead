@@ -145,10 +145,19 @@ a{-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out
   position: fixed;
 }
 
+.nav-morees{
+  visibility: hidden;
+}
+
 @media (max-width:999px){
 
 .nav-moree{
   visibility: visible;
+}
+
+.nav-morees{
+  visibility: hidden;
+  position: absolute;
 }
 
 }
@@ -157,6 +166,21 @@ a{-webkit-transition:all 300ms ease-in-out;-moz-transition:all 300ms ease-in-out
 
 .nav-moree{
   right: 100px;
+  
+}
+
+}
+
+@media (min-width:10px) and (max-width:450px){
+
+.nav-morees{
+  visibility: visible;
+  margin-left: 15px;
+  position: relative;
+}
+
+.nav-moree{
+  visibility: hidden;
 }
 
 }
